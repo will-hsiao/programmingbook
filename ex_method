@@ -1,0 +1,7 @@
+def greeting(name)
+	puts "Welcome "+name
+end
+
+p "Enter a name:"
+a=gets.chomp
+greeting(a)
