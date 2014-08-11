@@ -5,3 +5,30 @@ end
 p "Enter a name:"
 a=gets.chomp
 greeting(a)
+
+############################
+x = 2
+puts x
+puts x = 2
+p name = "Joe"
+puts name
+
+four = "four"
+puts four
+print something = "nothing"
+
+#######################
+
+def multiply (f1, f2)
+	f1*f2
+end
+puts a=multiply(4,5)
+
+######################
+
+def scream(words)
+  words = words + "!!!!"
+  puts words
+end
+
+scream("Yippeee")
