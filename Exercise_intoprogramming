@@ -1,0 +1,14 @@
+ #Exercise 1 after Intro to Programming
+ arr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ arr.each {|num| puts "#{num} is listed"}
+
+ #Exercise 2
+ puts "Exercise2: print values greater than 5"
+ arr.each do |num|
+ 	if num>5
+ 		puts "#{num} is greater than 5"}
+ 	end
+ end
+ 
+ 
+
