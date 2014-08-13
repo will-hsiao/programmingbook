@@ -1,0 +1,23 @@
+
+family = {  uncles: ["bob", "joe", "steve"],
+            sisters: ["jane", "jill", "beth"],
+            brothers: ["frank","rob","david"],
+            aunts: ["mary","sally","susan"]
+          }
+im=family.select {|k,v| (k==:sisters || k==:brothers)}
+im_array=im.values.flatten
+p im_array
+
+friend={boss: "Kevin"}
+p friend
+p family
+m1=family.merge (friend)
+p 'after merge'
+p friend
+p family
+p m1
+m2=family.merge! (friend)
+p 'after merge!'
+p friend
+p family
+p m2
